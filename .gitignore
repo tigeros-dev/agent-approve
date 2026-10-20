@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+# store (approval records, code state), decision log
+.agent-approve/
+agent-approve.log.jsonl
+*.log.jsonl

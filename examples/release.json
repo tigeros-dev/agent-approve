@@ -1,0 +1,6 @@
+{
+  "name": "example-tool",
+  "version": "2.4.0",
+  "artifact": "example-tool-2.4.0.tar.gz",
+  "security_contact": "security@example.org"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-approve"
+version = "0.1.0"
+description = "Content-bound human approval with a one-time code (TOTP) for agent actions."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Dominik Dietrich" }]
+dependencies = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+agent-approve = "agent_approve.__main__:main"
+
+[tool.setuptools]
+packages = ["agent_approve"]
